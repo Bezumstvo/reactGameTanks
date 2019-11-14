@@ -1,42 +1,23 @@
 {
-  "name": "appName",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
-  },
+  "name": "how-to-make-a-multiplayer-game",
+  "version": "1.0.0",
+  "description": "A tutorial for creating multiplayer browser games",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "node server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/omgimanerd/how-to-make-a-multiplayer-game.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Alvin Lin (omgimanerd)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/omgimanerd/how-to-make-a-multiplayer-game/issues"
   },
-  "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "prettier": "^1.19.1",
-    "prettier-eslint": "^9.0.0"
+  "homepage": "https://github.com/omgimanerd/how-to-make-a-multiplayer-game#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2"
   }
 }
