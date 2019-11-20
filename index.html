@@ -1,13 +1,22 @@
 <html>
   <head>
     <title>Game Tanks</title>
-    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
     <script src="/socket.io/socket.io.js"></script>
     <link rel="stylesheet" href="/static/css/reset.css" />
     <link rel="stylesheet" href="/static/css/style.css" />
   </head>
   <body>
     <canvas id="canvas"></canvas>
+    <div id="chat">
+      <div id="history">
+        <div><hr /></div>
+      </div>
+      <div id="input">
+        <input type="text" />
+        <button>SEND</button>
+      </div>
+    </div>
   </body>
   <script src="/static/game.js"></script>
 </html>
